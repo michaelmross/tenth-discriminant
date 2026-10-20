@@ -2,7 +2,7 @@
 
 Michael M. Ross · michaelmross@cantab.net · 20 October 2026
 
-## AI disclosure
+## AI acknowledgment
 
 The lemma, its proof, this note and the scripts were developed with Claude Opus (Anthropic). I have checked the argument and run the scripts.
 
