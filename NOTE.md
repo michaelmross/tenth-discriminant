@@ -44,7 +44,7 @@ $$1 - \beta < \frac{2}{\sqrt d}.$$
 
 ### 2.1 The Chowla–Selberg expansion
 
-Since $h = 1$ and the unit group has order $w = 2$, for $\operatorname{Re} s > 1$
+Since $h = 1$ and the unit group has order $w = 2$, for $`\mathrm{Re}(s) > 1`$
 
 $$\zeta_K(s) = \sum_{\mathfrak a} N\mathfrak a^{-s} = \frac12 \sum_{(x,y) \ne (0,0)} Q(x,y)^{-s}.$$
 
@@ -52,7 +52,7 @@ The terms with $y = 0$ contribute $\zeta(2s)$. By the symmetry $(x,y) \mapsto (-
 
 $$\sum_{y \ge 1} \sum_{x \in \mathbb{Z}} \left( (x + \alpha_y)^2 + c_y^2 \right)^{-s}, \qquad \alpha_y = \frac{y}{2}, \quad c_y = \frac{y\sqrt d}{2}.$$
 
-For $c > 0$ and $\operatorname{Re} s > \tfrac12$, the Fourier transform of $t \mapsto (t^2 + c^2)^{-s}$ is
+For $c > 0$ and $`\mathrm{Re}(s) > \tfrac12`$, the Fourier transform of $t \mapsto (t^2 + c^2)^{-s}$ is
 
 $$\int_{\mathbb R} (t^2+c^2)^{-s} e^{-2\pi i \xi t}\,dt = \begin{cases} \sqrt{\pi}\,\dfrac{\Gamma(s-\frac12)}{\Gamma(s)}\, c^{1-2s}, & \xi = 0, \\[2ex] \dfrac{2\pi^s}{\Gamma(s)} \left( \dfrac{|\xi|}{c} \right)^{s-\frac12} K_{s-\frac12}(2\pi|\xi| c), & \xi \ne 0. \end{cases}$$
 
@@ -64,7 +64,7 @@ where
 
 $$g(s) = \sqrt{\pi}\,\frac{\Gamma(s - \frac12)}{\Gamma(s)}, \qquad E(s) = \frac{4\pi^s}{\Gamma(s)} \sum_{y \ge 1} \sum_{m \ge 1} \left( \frac{m}{c_y} \right)^{s-\frac12} K_{s-\frac12}(\pi m y \sqrt d)\, \cos(\pi m y).$$
 
-The double sum defining $E$ converges absolutely and locally uniformly in $s$, because $K_\nu(z)$ decays like $e^{-z}$. So $E$ is entire, and the identity extends from $\operatorname{Re} s > 1$ to all $s \ne 1$ by analytic continuation.
+The double sum defining $E$ converges absolutely and locally uniformly in $s$, because $K_\nu(z)$ decays like $e^{-z}$. So $E$ is entire, and the identity extends from $`\mathrm{Re}(s) > 1`$ to all $s \ne 1$ by analytic continuation.
 
 As a check on normalization, the residue at $s = 1$ is $g(1) \cdot (2/\sqrt d) \cdot \tfrac12 = \pi/\sqrt d$. This equals $L(1,\chi)$, as the class number formula requires for $h = 1$, $w = 2$. The identity is also checked numerically in `check_lemma.py` (Section 5).
 
