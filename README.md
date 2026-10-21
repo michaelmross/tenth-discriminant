@@ -2,7 +2,7 @@
 
 Class number one for imaginary quadratic fields, derived from W. D. Banks's explicit bound excluding Landau–Siegel zeros ([arXiv:2610.15483](https://arxiv.org/abs/2610.15483)), without Heegner points.
 
-[Note](https://github.com/michaelmross/tenth-discriminant/blob/main/NOTE.md) written in response to Terence Tao's challenge, [*An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes*](https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/) (20 October 2026).
+A response to Terence Tao's challenge, [*An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes*](https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/) (20 October 2026).
 
 ## Result
 
@@ -10,7 +10,7 @@ Class number one for imaginary quadratic fields, derived from W. D. Banks's expl
 - **With Banks's theorem.** Banks's Theorem 1.1 gives $(1-\beta)\log q \ge 3.0 \times 10^{-3}$ for $q \ge 10^{10}$. The lemma gives $(1-\beta)\log d < 4.6 \times 10^{-4}$, so any tenth discriminant has $d < 10^{10}$.
 - **Sieve.** No $d$ with $163 < d < 10^{10}$ satisfies Rabinowitsch's condition.
 
-The result is conditional on Banks's Theorem 1.1 (first assertion). The full argument is in [NOTE.md](NOTE.md).
+The result is conditional on Banks's Theorem 1.1 (first assertion). **The full argument is in [NOTE.md](NOTE.md).**
 
 ## Files
 
