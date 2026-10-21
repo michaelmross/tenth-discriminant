@@ -1,4 +1,4 @@
-# Class number one from Banks's explicit Siegel-zero bound
+# Class number one from Banks' explicit Siegel-zero bound
 
 Michael M. Ross · michaelmross@cantab.net · 20 October 2026
 
@@ -13,12 +13,12 @@ We show that the explicit exclusion of Landau–Siegel zeros given by Banks [1],
 It has three steps.
 
 1. **Zero forcing (Lemma 2).** If $h(-d) = 1$ and $d \ge 10^{10}$, then $L(s,\chi_{-d})$ has a real zero $\beta$ with $1 - \beta < 2/\sqrt d$. The proof uses only the Chowla–Selberg expansion of $\zeta_K$ and two textbook inequalities for $\zeta$.
-2. **Banks's theorem.** For conductors $q \ge 10^{10}$, every real zero satisfies $(1-\beta)\log q \ge 3.0 \times 10^{-3}$. Lemma 2 gives $(1-\beta)\log d < 4.6 \times 10^{-4}$, so any tenth discriminant has $d < 10^{10}$.
+2. **Banks' theorem.** For conductors $q \ge 10^{10}$, every real zero satisfies $(1-\beta)\log q \ge 3.0 \times 10^{-3}$. Lemma 2 gives $(1-\beta)\log d < 4.6 \times 10^{-4}$, so any tenth discriminant has $d < 10^{10}$.
 3. **Sieve.** Rabinowitsch's criterion forces $(-d/p) = -1$ for every prime $p < (d+1)/4$. A numpy sieve shows that no $d$ in $(163, 10^{10})$ satisfies this. The run takes under a second.
 
 This is the route of the comment by twinheterodox on Tao's challenge post [6], which proves $1-\beta \le 10/\sqrt q$ by a theta-integral argument. The contribution here is the constant $2$ in place of $10$, with $6/\pi$ identified as the sharp asymptotic constant, and a short proof whose analytic inputs are all classical.
 
-**Everything is conditional on Banks's Theorem 1.1 (first assertion).** That is the step that most needs independent checking.
+**Everything is conditional on Banks' Theorem 1.1 (first assertion).** That is the step that most needs independent checking.
 
 ## 1. Reductions
 
@@ -132,7 +132,7 @@ The margin $+0.0735$ at $d = 10^{10}$, $K = 2$ matches the analytic lower bound 
 
 **The lemma is asymptotic.** For $d = 163$, $L(s,\chi_{-163})$ has no sign change on $(\tfrac12, 1)$ and is positive at every sampled point of $[0.3, 0.95]$. The quantitative inequalities of Section 2.3 are what make the lemma work, so a size hypothesis on $d$ is genuinely needed. The table suggests the sign condition already holds from about $d = 10^7$, but only $d \ge 10^{10}$ is proved here, and that is all Section 3 requires.
 
-## 3. Combining with Banks's theorem
+## 3. Combining with Banks' theorem
 
 **Theorem (Banks [1], Theorem 1.1, first assertion).** For every primitive real Dirichlet character $\chi$ of conductor $q \ge 10^{10}$, every real zero $\beta \in (0,1)$ of $L(s,\chi)$ satisfies $(1 - \beta)\log q \ge \delta_0$, where $\delta_0 = 81/(5888\, e^{3/2}) = 3.069\ldots \times 10^{-3}$.
 
