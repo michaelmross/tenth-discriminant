@@ -1,16 +1,16 @@
 # tenth-discriminant
 
-Class number one for imaginary quadratic fields, derived from W. D. Banks's explicit bound excluding Landau–Siegel zeros ([arXiv:2610.15483](https://arxiv.org/abs/2610.15483)), without Heegner points.
+Class number one for imaginary quadratic fields, derived from W. D. Banks' explicit bound excluding Landau–Siegel zeros ([arXiv:2610.15483](https://arxiv.org/abs/2610.15483)), without Heegner points.
 
 A response to Terence Tao's challenge, [*An experimental AI-math challenge: using tenth discriminant bounds to explore arguments ruling out Siegel zeroes*](https://terrytao.wordpress.com/2026/10/20/an-experimental-ai-math-challenge-using-tenth-discriminant-bounds-to-explore-arguments-ruling-out-siegel-zeroes/) (20 October 2026).
 
 ## Result
 
 - **Zero forcing.** If $h(-d) = 1$ and $d \ge 10^{10}$, then $L(s,\chi_{-d})$ has a real zero $\beta$ with $1 - \beta < 2/\sqrt d$. The sharp asymptotic constant is $6/\pi$.
-- **With Banks's theorem.** Banks's Theorem 1.1 gives $(1-\beta)\log q \ge 3.0 \times 10^{-3}$ for $q \ge 10^{10}$. The lemma gives $(1-\beta)\log d < 4.6 \times 10^{-4}$, so any tenth discriminant has $d < 10^{10}$.
+- **With Banks' theorem.** Banks' Theorem 1.1 gives $(1-\beta)\log q \ge 3.0 \times 10^{-3}$ for $q \ge 10^{10}$. The lemma gives $(1-\beta)\log d < 4.6 \times 10^{-4}$, so any tenth discriminant has $d < 10^{10}$.
 - **Sieve.** No $d$ with $163 < d < 10^{10}$ satisfies Rabinowitsch's condition.
 
-The result is conditional on Banks's Theorem 1.1 (first assertion). **The full argument is in [NOTE.md](NOTE.md).**
+The result is conditional on Banks' Theorem 1.1 (first assertion). **The full argument is in [NOTE.md](NOTE.md).**
 
 ## Files
 
@@ -55,9 +55,9 @@ h = 1 fundamental discriminants |D| < 2e4: [3, 4, 7, 8, 11, 19, 43, 67, 163]
 
 ## Dependencies of the argument
 
-Used: Banks's Theorem 1.1 (first assertion), the Chowla–Selberg expansion, elementary bounds for $\zeta$, $\Gamma$, $\psi$ and $K_\nu$, Rabinowitsch's criterion, and the computation above.
+Used: Banks' Theorem 1.1 (first assertion), the Chowla–Selberg expansion, elementary bounds for $\zeta$, $\Gamma$, $\psi$ and $K_\nu$, Rabinowitsch's criterion, and the computation above.
 
-Not used: Heegner points, Gross–Zagier, Baker's method, or the Lu–Zaman–Zhao computation that Banks's second assertion relies on.
+Not used: Heegner points, Gross–Zagier, Baker's method, or the Lu–Zaman–Zhao computation that Banks' second assertion relies on.
 
 ## AI disclosure
 
